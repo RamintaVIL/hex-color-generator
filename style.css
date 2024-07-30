@@ -1,0 +1,44 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    /* centruoja per ploti */
+    justify-content: center;
+    /* centruoja per auksti */
+    align-items: center;
+}
+.hexContainer {
+    background-color: #005490;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 20px;
+}
+.hex {
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+hr {
+    width: 100%;
+}
+.generate {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: none;
+}
